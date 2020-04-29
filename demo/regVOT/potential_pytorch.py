@@ -1,6 +1,6 @@
 # PyVot Python Variational Optimal Transportation
 # Author: Liang Mi <icemiliang@gmail.com>
-# Date: Aug 11th 2019
+# Date: April 28th 2020
 # Licence: MIT
 
 """
@@ -118,5 +118,5 @@ utils.scatter_otsamples(vot_reg.data_p.detach(), vot_reg.data_e, size_p=30, mark
 
 # ---- plot and save ---- #
 plt.tight_layout(pad=1.0, w_pad=1.5, h_pad=0.5)
-# plt.savefig("rwm_potential.png")
+# plt.savefig("potential.png")
 plt.show()
